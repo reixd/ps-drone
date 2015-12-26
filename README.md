@@ -9,6 +9,22 @@ TODO
 
 TODO
 
+## Documentation
+
+Install doxygen and doxypy:
+
+```
+sudo apt-get install doxygen doxypy
+```
+
+go to `./documentation` and execute
+
+```
+doxygen documentation.dox
+```
+
+then open with your browser `./doxygen/html/index.html`.
+
 ## Usage
 
 TODO
