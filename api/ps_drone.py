@@ -2405,7 +2405,7 @@ if __name__ == "__main__":
     ###
 
     import time
-    import ps_drone
+    import api.ps_drone as ps_drone
 
     drone = ps_drone.Drone()  # Start using drone
     drone.printBlue("Battery: ")

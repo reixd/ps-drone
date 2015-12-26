@@ -11,7 +11,7 @@
 ###########
 
 import time
-import ps_drone                # Imports the PS-Drone-API
+import api.ps_drone as ps_drone                # Imports the PS-Drone-API
 
 drone = ps_drone.Drone()       # Initializes the PS-Drone-API
 drone.startup()                # Connects to the drone and starts subprocesses

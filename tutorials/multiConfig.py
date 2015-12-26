@@ -13,7 +13,7 @@
 
 ##### Suggested clean drone startup sequence #####
 import time, sys
-import ps_drone                                              # Import PS-Drone-API
+import api.ps_drone as ps_drone                                              # Import PS-Drone-API
 
 drone = ps_drone.Drone()                                     # Start using drone					
 drone.startup()                                              # Connects to drone and starts subprocesses
